@@ -1,0 +1,83 @@
+
+
+
+#h2_forms {
+    color: white;
+    text-align: center;
+}
+.container_forms{
+    background-color: #FEBF54;
+    width: 700px;
+    height: 210px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+}
+
+#input_assunto {
+    width: 605px;
+    height: 40px;
+    border: none;
+}
+
+#input_nome {
+    width: 400px;
+    border: none;
+}
+
+#input_tel {
+    width: 250px;
+    border: none;
+}
+
+#input_email {
+    width: 96%;
+    border: none;
+}
+
+#input_enviar {
+    color: #FF5757;
+    width: 60px;
+    height: 45px;
+}
+
+.email_forms {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.assunto_forms {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 10px;
+    padding-left: 6px;
+}
+
+.enviar_forms {
+    display: flex;
+    justify-content: center;
+    padding-right: 6px;
+}
+
+.nome_telf {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-right: 4px;
+    padding-left: 3px;
+
+}
+.assunto_enviar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+input::placeholder {
+    color: #FF5757;
+    
+    font-weight: bold;
+}
