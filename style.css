@@ -6,6 +6,10 @@ body {
     overflow: auto;
 }
 
+body.galeria-pagina {
+    background-color: #ffb9b1;
+}
+
 .card-banner {
     display: flex;
 }
@@ -21,6 +25,27 @@ body {
     padding: 10px 0;
     display: flex;
     justify-content: space-around;
+}
+
+.barra-superior h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail {
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
 }
 
 #h2_forms {
