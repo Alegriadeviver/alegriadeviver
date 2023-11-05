@@ -1,0 +1,163 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 300vh;
+    overflow: auto;
+}
+
+body.galeria-pagina {
+    background-color: #ffb9b1;
+}
+
+.card-banner {
+    display: flex;
+}
+
+.card-banner img {
+    width: 100%;
+    margin-top: 0;
+}
+
+.barra-superior {
+    background-color: #FF5757;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra-superior h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail {
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+#h2_forms {
+    color: white;
+    text-align: center;
+}
+.container_forms {
+    background-color: #FEBF54;
+    width: 700px;
+    height: 210px;
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+    border-radius: 7px;
+    margin: 30px;
+}
+
+
+#input_assunto {
+    width: 605px;
+    height: 40px;
+    border: none;
+}
+
+#input_nome {
+    width: 400px;
+    border: none;
+}
+
+#input_tel {
+    width: 250px;
+    border: none;
+}
+
+#input_email {
+    width: 96%;
+    border: none;
+}
+
+#input_enviar {
+    color: #FF5757;
+    width: 60px;
+    height: 45px;
+}
+
+.email_forms {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.assunto_forms {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 10px;
+    padding-left: 6px;
+}
+
+.enviar_forms {
+    display: flex;
+    justify-content: center;
+    padding-right: 6px;
+}
+
+.nome_telf {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-right: 4px;
+    padding-left: 3px;
+
+}
+.assunto_enviar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+input::placeholder {
+    color: #FF5757;
+    
+    font-weight: bold;
+}
+
+
+.container_imgtext {
+    background-color: #ebe9e5;
+    color: #f7be02;
+    display: flex;
+    padding-top: 65px;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+
+.class_h4 {
+    display: flex;
+}
+
+.class_h3 h4 {
+    color: black;
+    padding-left: 50px;
+}
+
+#imagemtexto {
+    width: 450px;
+    height: 250px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+#h2_text {
+    padding-left: 50px;
+}
