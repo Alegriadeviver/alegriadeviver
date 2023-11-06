@@ -1,9 +1,12 @@
+
+
 body {
     position: relative;
     margin: 0;
     padding: 0;
     min-height: 300vh;
     overflow: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 body.galeria-pagina {
@@ -127,7 +130,7 @@ body.galeria-pagina {
 
 input::placeholder {
     color: #FF5757;
-    
+    font-family: 'Poppins', sans-serif; 
     font-weight: bold;
 }
 
