@@ -179,8 +179,8 @@ input:focus{
     border-radius: 2vh;
     background-color: #FEBF54;
     margin: 3%;
-    height: 70vh;
-    width: 50vh;
+    height: 50vh;
+    width: 30vh;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -190,7 +190,7 @@ input:focus{
 .textoc {
     color: #ebe9e5;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     padding: 1vh;
@@ -203,8 +203,8 @@ input:focus{
 }
 .imagemcard{
     border-radius: 100%;
-    width: 30vh;
-    height: 30vh;
+    width: 22vh;
+    height: 22vh;
 }
 
 
