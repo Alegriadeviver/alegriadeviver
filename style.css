@@ -161,7 +161,7 @@ input:focus{
     width: 80vh;
 }
 #imagemtexto {
-    max-width: 350px;
+    width: 70vh;
     height: auto;
 }
 
@@ -179,8 +179,8 @@ input:focus{
     border-radius: 2vh;
     background-color: #FEBF54;
     margin: 3%;
-    height: 220px;
-    width: 180px;
+    height: 70vh;
+    width: 50vh;
     display: flex;
     flex-direction: column;
     align-content: center;
