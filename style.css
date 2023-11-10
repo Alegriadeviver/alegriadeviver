@@ -42,6 +42,8 @@ body.galeria-pagina {
 .barra-superior h2 a {
     color: white;
     text-decoration: none;
+    display: flex;
+    font-size: 1.4rem;
 }
 
 #h2_forms {
@@ -131,25 +133,28 @@ input:focus{
     justify-content: center;
     height: auto;
 }
+.class_barra-superior
 
 .class_h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 5rem;
 
 
 }
 
 .class_h3 h2 {
     font-weight: 600;
-    font-size: 4vh;
+    font-size: 3rem;
+    font-display: flex;
 }
 .class_h3 h4.imgtext{
     word-wrap: break-word;
     margin: 10px 0;
     font-weight: 400;
-    font-size: 2.5vh;
+    font-size: 1.2rem;
 }
 
 .container_imgtext h4 {
@@ -159,6 +164,7 @@ input:focus{
 
 #img_text{
     width: 80vh;
+    
 }
 #imagemtexto {
     width: 70vh;
@@ -189,8 +195,8 @@ input:focus{
 
 .textoc {
     color: #ebe9e5;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 900;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     padding: 1vh;
